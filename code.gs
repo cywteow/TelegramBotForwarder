@@ -127,7 +127,6 @@ function validateCredentials(password) {
   if (password != PropertiesService.getScriptProperties().getProperty("password")) {
     return false;
   }
-  
   return true;
 }
 
